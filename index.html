@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fake Forum</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Fake Forum</h1>
+      <div class="user-info">
+        <div class="profile-pic">
+          <img id="profile-pic" src="default.png" alt="Default Profile Picture">
+        </div>
+        <div class="username">
+          <p id="username">Guest</p>
+          <button id="change-user">Change User</button>
+        </div>
+      </div>
+      <div class="background-info">
+        <button id="choose-background">Choose Background</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>Welcome to the Fake Forum!</h2>
+      <p>Feel free to post your thoughts and ideas below.</p>
+      <form>
+        <label for="post">Post:</label><br>
+        <textarea id="post" name="post"></textarea><br>
+        <button id="submit-post">Submit</button>
+      </form>
+      <div id="posts-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
